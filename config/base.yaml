@@ -1,0 +1,36 @@
+structure:
+  - '/src'
+  - '/src/Core/Server'
+  - '/src/Core/Router'
+  - '/src/Core/Database'
+  - '/src/Shared/Util/Logger'
+
+components:
+  app:
+    fileName: 'app.ts'
+    template: 'app.template.ts'
+    output: '/src'
+  index:
+    fileName: 'index.ts'
+    template: 'index.template.ts'
+    output: '/src'
+  server:
+    fileName: 'ServerCore.ts'
+    template: 'server.template.ts'
+    output: '/src/Core/Server'
+  router:
+    fileName: 'RouterCore.ts'
+    template: 'router.template.ts'
+    output: '/src/Core/Router'
+  database:
+    fileName: 'DatabaseCore.ts'
+    template: 'database.template.ts'
+    output: '/src/Core/Database'
+  logger:
+    fileName: 'LoggerUtil.ts'
+    template: 'logger.template.ts'
+    output: '/src/Shared/Util/Logger'
+  env:
+    fileName: '.env'
+    template: '.env.template'
+    output: '/'
