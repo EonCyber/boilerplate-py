@@ -41,7 +41,7 @@ OUTPUT: The /output directory is the target for the new project
 
 # Database Mongodb
 
-After creating a new project uncomment the db.connect in the app.ts and insert your mongodb URI and PORT, when you run the project with "npm run start:dev" it should display the Database Connection.
+After creating a new project uncomment the db.connect in the app.ts and insert your mongodb URI and PORT. When you run the project with "npm run start:dev" it should display the Database Connection.
 
 # Future
 Ideas for the future:
