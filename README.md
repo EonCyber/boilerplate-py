@@ -3,7 +3,7 @@
 In this python project we are invited to tweak and configure our projects boilerplate, so that we can accelerate the creation of new base projects to start coding new features.
 
 Thats possible using:
-- Python (OS and System automation)
+- Python (System automation)
 - Jinja2 (for template rendering)
 - PyYaml (for creating new template configurations)
 
