@@ -9,9 +9,9 @@ Thats possible using:
 
 ## Node JS + Typescript
 
-At the momment in this first version we create a Node + Typescript Http Express Server ready to use.
+At the momment in this version we are able to create a Node + Typescript Http Express Server ready to use.
 
-But the code can be modified to use for any type of software project bootstrap.
+*But the code can be modified to use for any type of software project bootstrap later.*
 
 # Using it
 On your system you need to have:
