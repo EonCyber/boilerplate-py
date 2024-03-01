@@ -39,10 +39,14 @@ python boilerplate.py <YOUR_PROJECT_NAME>
 <YOUR_PROJECT_NAME> will be used to create the output project folder and passed to npm as project name.
 OUTPUT: The /output directory is the target for the new project
 
+# Database Mongodb
+
+After creating a new project uncomment the db.connect in the app.ts and insert your mongodb URI and PORT, when you run the project with "npm run start:dev" it should display the Database Connection.
+
 # Future
 Ideas for the future:
 - Generate new templates (with Error Handling, Mongo in-Memory Database, Etc) 
-- To remove node_modules at the end of the first project test
+- To remove node_modules at the end of the first project test(?)
 - Create options for new types of projects (Node Batch, Node Socket, React, Java Springboot, Php, etc) 
 
-*feel free to reach me out for any suggestions*
+*feel free to reach me out for any suggestions or contributions*
